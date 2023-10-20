@@ -1,0 +1,16 @@
+header {
+    background-image: url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg);
+    height: 100vh;
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100vh;
+    
+    .headercont{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(0,0,0,0.2);
+        background-color: linear-gradient( rgba(0,0,0,1) 0%, rgba(129,129,129,1) 46%, rgba(255,255,255,1) 100%);
+       
+    }
+}
+

@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+#getstarted h1 {
+  font-weight: 600;
+}
+
+#getstarted button {
+  padding: 18px 30px;
+  background-color: rgb(123, 163, 163);
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border-radius: 10px;
+}
+
+header {
+  background-image: url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg);
+  height: 100vh;
+  background-size: cover;
+  max-width: 100%;
+  max-height: 100vh;
+}
+header .headercont {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  background-color: linear-gradient(rgb(0, 0, 0) 0%, rgb(129, 129, 129) 46%, rgb(255, 255, 255) 100%);
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 70%;
+  margin: 0 auto;
+  max-height: max-content;
+  padding-top: 40px;
+}
+header nav .strtbts {
+  font-size: 24px;
+  font-weight: 700;
+}
+header nav .APC {
+  display: flex;
+  width: max-content;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+}
+header nav .APC div {
+  color: rgb(116, 118, 121);
+  font-size: 20px;
+}
+
+#getstarted {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 0 auto;
+}
+#getstarted h1 {
+  font-size: 94px;
+  color: rgba(139, 139, 139, 0.8078431373);
+}
+#getstarted .gstxt {
+  color: rgb(247, 247, 247);
+}
+#getstarted button {
+  margin-top: 30px;
+}
+
+#builtwith {
+  height: 70vh;
+  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+}
+#builtwith .sectcont {
+  display: flex;
+  justify-content: center;
+  min-width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#builtwith .sectcont img {
+  height: 50%;
+  width: 60%;
+}
+#builtwith .sectcont h1 {
+  color: rgb(197, 197, 197);
+  padding-top: 100px;
+  font-size: 32px;
+}
+#builtwith .sectcont .text {
+  color: rgb(173, 170, 170);
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+#shoreline {
+  padding-top: 90px;
+  padding-bottom: 30px;
+}
+#shoreline .cartcont {
+  max-width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#shoreline .cartcont img {
+  max-width: 700px;
+  min-height: 300px;
+}
+#shoreline .cartcont .txt {
+  width: 30%;
+  padding-left: 30px;
+  text-align: center;
+  border-left: 9px solid rgb(65, 145, 145);
+}
+#shoreline .cartcont .txt .shore {
+  font-size: 28px;
+  font-weight: 900;
+  padding-bottom: 10px;
+}
+
+#mm {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+#mm .misty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#mm .misty .img {
+  max-width: 50%;
+}
+#mm .misty .img img {
+  width: 100%;
+}
+#mm .misty .txt {
+  width: 50%;
+  height: 100%;
+  background-color: #000;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+#mm .misty .txt .txttxt {
+  width: 80%;
+}/*# sourceMappingURL=main.css.map */
